@@ -1,0 +1,75 @@
+
+
+header {
+  background: #FFFFFF;
+  color: Black;
+  font-family: monospace;
+font-size: 20px;
+  padding: 5px 15px;
+  border: 1px solid black;
+}
+
+header h1 {
+  margin: 5px 20px 5px 5px;
+    display: inline-block;
+}
+
+
+nav ul{
+  display: inline;
+margin: 0;
+padding: 0 0 0 5px;
+}
+
+nav ul li {
+    display:inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color:black;
+  margin:0;
+}
+
+p {
+margin: 0 0 0 15px;
+font-family: Arial;
+display: inline;
+}
+
+img {
+padding: 10px 10px 0 0;
+}
+
+h1 {
+  font-family: Arial;
+  margin: 5px 0 0 15px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+
+
+.one {
+margin: 30px 70px 0 70px;
+border: 2px solid black;
+background: #57007F; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(
+  -90deg,
+   #0CDEFF,
+   #57007F
+); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(
+  -90deg,
+  #0CDEFF,
+  #57007F
+); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(
+  -90deg,
+  #0CDEFF,
+  #57007F
+); /* For Firefox 3.6 to 15 */
+background: linear-gradient(-90deg, #0CDEFF, #57007F); /* Standard syntax */
+}
